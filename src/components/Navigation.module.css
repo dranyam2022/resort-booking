@@ -1,0 +1,14 @@
+.container {
+  font-family: var(--font-bold);
+  font-size: 3rem;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.logo {
+  color: var(--accent-orange);
+}

@@ -1,9 +1,10 @@
-import "./App.css";
+import styles from "./App.module.css";
+import Explore from "./pages/explore/Explore";
 
 function App() {
   return (
-    <div className="App">
-      <h1>My app</h1>
+    <div className={styles.container}>
+      <Explore />
     </div>
   );
 }

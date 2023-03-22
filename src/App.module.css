@@ -1,0 +1,5 @@
+.container {
+  width: var(--container-lg);
+  background-color: var(--secondary);
+  margin: 0 auto;
+}
