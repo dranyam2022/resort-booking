@@ -81,8 +81,8 @@ body {
   --on-secondary: #1b1412;
   /* container width */
   --container-sm: 96%;
-  --container-md: 92%;
-  --container-lg: 88%;
+  --container-md: 90%;
+  --container-lg: 80%;
   /* font family */
   --font-bold: "Saira Extra Condensed", sans-serif;
   --font-reg: "Montserrat", sans-serif;

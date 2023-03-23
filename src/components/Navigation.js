@@ -6,8 +6,10 @@ const Navigation = () => {
   return (
     <>
       <span className={styles.container}>
-        <GiSurferVan className={styles.logo} />
-        WAVE .
+        <div>
+          <GiSurferVan className={styles.logo} />
+        </div>
+        <div> WAVE .</div>
       </span>
     </>
   );

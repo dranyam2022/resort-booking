@@ -2,16 +2,19 @@ import React from "react";
 import HeroCard from "../../components/HeroCard";
 import MiniCards from "../../components/MiniCards";
 import Navigation from "../../components/Navigation";
-import SectionContainer from "../../layout/SectionContainer";
+import Container from "../../layout/Container";
+import Section from "../../layout/Section";
 
 const Explore = () => {
   return (
     <>
-      <SectionContainer>
-        <Navigation />
-        <HeroCard />
-        <MiniCards />
-      </SectionContainer>
+      <Section bgColor={"bg--brown"}>
+        <Container>
+          <Navigation />
+          <HeroCard />
+          <MiniCards />
+        </Container>
+      </Section>
     </>
   );
 };
