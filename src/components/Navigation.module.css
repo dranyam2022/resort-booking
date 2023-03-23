@@ -1,4 +1,11 @@
-.container {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.container__logo {
   font-family: var(--font-bold);
   font-size: 3rem;
   color: white;
@@ -9,5 +16,31 @@
 }
 
 .logo {
+  color: var(--accent-orange);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.arrowRight {
+  font-size: 1.8rem;
   color: var(--accent-orange);
 }
