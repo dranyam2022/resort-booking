@@ -5,6 +5,8 @@ import MiniCards from "../../components/MiniCards";
 import Navigation from "../../components/Navigation";
 import Container from "../../layout/Container";
 import Section from "../../layout/Section";
+import Button from "../../layout/Button";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import { GiSurferVan } from "react-icons/gi";
 
 const Explore = () => {
@@ -45,16 +47,25 @@ const Explore = () => {
 
             <div className={styles.services}>
               <div className={styles.services__title}>
-                <h2>Service</h2>
-                <span>OFFERS</span>
-                <h2>WE PROVIDE</h2>
+                <p>
+                  <div>
+                    <h2>Service</h2>
+                    <span>OFFERS</span>
+                  </div>
+                  <h2>WE PROVIDE</h2>
+                </p>
               </div>
 
-              <p>
-                Wave provides aesthetic beach house to our international Tourist
-                and Event organizer.
-              </p>
-              <div>SEE ALL SERVICES</div>
+              <div className={styles.services__text}>
+                <p>
+                  Wave provides aesthetic beach house to our international
+                  Tourist and Event organizer.
+                </p>
+                <Button color="onSecondary">
+                  SEE ALL SERVICES
+                  <AiOutlineArrowRight />
+                </Button>
+              </div>
             </div>
           </div>
         </Container>

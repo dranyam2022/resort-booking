@@ -27,10 +27,10 @@
 
 .banner {
   display: flex;
-  border: 1px solid black;
   padding: 1rem;
   gap: 1rem;
   font-size: 3rem;
+  border: 1px solid var(--primary);
 }
 
 .banner img {
@@ -67,10 +67,12 @@
 .services {
   height: 40rem;
   max-width: 32%;
+  padding-top: 3rem;
 }
 
-.services__title {
+.services__title div {
   display: flex;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -83,4 +85,21 @@
   font-size: 1.7rem;
   font-weight: bold;
   color: var(--accent-orange);
+}
+
+.services__title p {
+  line-height: 1;
+  letter-spacing: 0.2rem;
+}
+
+.services__text {
+  max-width: 80%;
+  font-size: 1.5rem;
+  text-align: end;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4rem;
+  float: right;
 }
