@@ -1,0 +1,14 @@
+.btn {
+  font-family: var(--font-bold);
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

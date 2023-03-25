@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Saira+Extra+Condensed:wght@800&display=swap");
-/* CSS Reset */
-/* Set REM to 10px */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Passion+One&display=swap");
+
+/* CSS Reset */ /* Set REM to 10px */
 html {
   font-size: 62.5%; /* 1rem = 10px (when default font size is 16px) */
 }
@@ -84,7 +84,7 @@ body {
   --container-md: 90%;
   --container-lg: 80%;
   /* font family */
-  --font-bold: "Saira Extra Condensed", sans-serif;
+  --font-bold: "Passion One", cursive;
   --font-reg: "Montserrat", sans-serif;
 }
 /* CSS Variables END*/

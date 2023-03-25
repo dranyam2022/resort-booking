@@ -1,0 +1,86 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.tour {
+  height: 40rem;
+  max-width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inspiration {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.links {
+  display: inline-flex;
+  gap: 2rem;
+  font-family: var(--font-bold);
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 3rem;
+}
+
+.banner img {
+  max-width: 17rem;
+}
+
+.banner__title {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3rem;
+  color: var(--primary);
+}
+
+.banner__title h3 {
+  font-family: var(--font-bold);
+}
+
+.banner__title svg {
+  color: var(--accent-orange);
+  font-size: 5rem;
+}
+
+.house {
+  background: url("https://images.unsplash.com/photo-1529700975896-60a7e629815f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: 32%;
+}
+
+.services {
+  height: 40rem;
+  max-width: 32%;
+}
+
+.services__title {
+  display: flex;
+  gap: 3rem;
+}
+
+.services__title h2 {
+  font-family: var(--font-bold);
+  font-size: 5.5rem;
+}
+
+.services__title span {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--accent-orange);
+}

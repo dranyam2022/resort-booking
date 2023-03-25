@@ -1,3 +1,7 @@
-.bg--brown {
+.bg--primary {
   background-color: var(--primary);
+}
+
+.bg--primary-variant {
+  background-color: var(--primary-variant);
 }
