@@ -9,6 +9,7 @@ import Button from "../../layout/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { GiSurferVan } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
+import Logo from "../../components/Logo";
 
 const Explore = () => {
   return (
@@ -93,9 +94,8 @@ const Explore = () => {
               <li>OUR STORY</li>
               <li>PACKAGES</li>
               <li>SERVICES</li>
-              <li className={styles.footer__logo}>
-                <GiSurferVan className={styles.logo} />
-                WAVE .
+              <li>
+                <Logo />
               </li>
               <li>FEATURE</li>
               <li>GALLERY</li>

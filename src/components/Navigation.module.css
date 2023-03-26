@@ -7,19 +7,7 @@
   margin-bottom: 5rem;
 }
 
-.container__logo {
-  font-family: var(--font-bold);
-  font-size: 3rem;
-  color: white;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-}
 
-.logo {
-  color: var(--accent-orange);
-}
 
 .links {
   display: flex;

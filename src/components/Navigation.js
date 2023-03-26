@@ -1,18 +1,13 @@
 import React from "react";
-import { GiSurferVan } from "react-icons/gi";
 import styles from "./Navigation.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "../layout/Button";
+import Logo from "./Logo";
 
 const Navigation = () => {
   return (
     <nav className={styles.nav}>
-      <span className={styles.container__logo}>
-        <div>
-          <GiSurferVan className={styles.logo} />
-        </div>
-        <div> WAVE .</div>
-      </span>
+      <Logo />
       <ul className={styles.links}>
         <li className={styles.link}>EXPLORE</li>
         <li className={styles.link}>ROOMS</li>
