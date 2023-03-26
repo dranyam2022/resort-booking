@@ -5,7 +5,7 @@ import MiniCards from "../../components/MiniCards";
 import Navigation from "../../components/Navigation";
 import Container from "../../layout/Container";
 import Section from "../../layout/Section";
-import Button from "../../layout/Button";
+import Button from "../../components/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { GiSurferVan } from "react-icons/gi";
 import { BsTelephone } from "react-icons/bs";
@@ -91,15 +91,15 @@ const Explore = () => {
               </div>
             </div>
             <ul className={styles.footer__links}>
-              <li>OUR STORY</li>
-              <li>PACKAGES</li>
-              <li>SERVICES</li>
+              <li className={styles.footer__link}>OUR STORY</li>
+              <li className={styles.footer__link}>PACKAGES</li>
+              <li className={styles.footer__link}>SERVICES</li>
               <li>
                 <Logo />
               </li>
-              <li>FEATURE</li>
-              <li>GALLERY</li>
-              <li>CONTACT</li>
+              <li className={styles.footer__link}>FEATURE</li>
+              <li className={styles.footer__link}>GALLERY</li>
+              <li className={styles.footer__link}>CONTACT</li>
             </ul>
             <p className={styles.copyRight}>
               &copy; 2023 Nard Studio | All Rights Reserved

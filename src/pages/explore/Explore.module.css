@@ -156,6 +156,20 @@
   margin: 6rem 0 0 0;
   padding: 6rem 0;
   border-top: 1px solid grey;
+  user-select: none;
+}
+
+.footer__link {
+  cursor: pointer;
+}
+
+.footer__link:hover {
+  color: var(--accent-orange);
+}
+
+.footer__link:active {
+  color: var(--accent-orange);
+  transform: scale(1.1);
 }
 
 .footer__logo {

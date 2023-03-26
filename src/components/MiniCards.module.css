@@ -9,6 +9,11 @@
   gap: 1rem;
 }
 
+.container div:hover {
+  transform-origin: bottom;
+  transform: scale(1, 1.2);
+}
+
 .title {
   font-size: 1.8rem;
 }

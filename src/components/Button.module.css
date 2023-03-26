@@ -11,8 +11,21 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  user-select: none;
 }
 
+.btn:hover {
+  border: 1px solid var(--accent-orange);
+  background-color: var(--accent-orange);
+}
+
+.btn:hover svg {
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
 .onSecondary {
   background-color: var(--primary);
   color: var(--on-primary);

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Navigation.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Button from "../layout/Button";
+import Button from "./Button";
 import Logo from "./Logo";
 
 const Navigation = () => {
