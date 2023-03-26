@@ -2,25 +2,23 @@ import React from "react";
 import styles from "./Explore.module.css";
 import HeroCard from "../../components/HeroCard";
 import MiniCards from "../../components/MiniCards";
-import Navigation from "../../components/Navigation";
 import Container from "../../layout/Container";
 import Section from "../../layout/Section";
 import Button from "../../components/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { GiSurferVan } from "react-icons/gi";
-import { BsTelephone } from "react-icons/bs";
-import Logo from "../../components/Logo";
+import Footer from "../../components/Footer";
 
 const Explore = () => {
   return (
     <>
       <Section bgColor="bg--primary">
         <Container>
-          <Navigation />
           <HeroCard />
           <MiniCards />
         </Container>
       </Section>
+
       <Section bgColor="bg--primary-variant">
         <Container>
           <div className={styles.content}>
@@ -72,41 +70,7 @@ const Explore = () => {
           </div>
         </Container>
       </Section>
-      <Section bgColor="bg--primary">
-        <Container>
-          <div className={styles.footer}>
-            <div className={styles.footer__top}>
-              <h2>CALL FOR BOOKING</h2>
-              <div className={styles.footer__btn}>
-                <div>
-                  <span>
-                    <BsTelephone />
-                  </span>
-                  (555) 555-1234
-                </div>
-                <Button>
-                  BOOK NOW
-                  <AiOutlineArrowRight />
-                </Button>
-              </div>
-            </div>
-            <ul className={styles.footer__links}>
-              <li className={styles.footer__link}>OUR STORY</li>
-              <li className={styles.footer__link}>PACKAGES</li>
-              <li className={styles.footer__link}>SERVICES</li>
-              <li>
-                <Logo />
-              </li>
-              <li className={styles.footer__link}>FEATURE</li>
-              <li className={styles.footer__link}>GALLERY</li>
-              <li className={styles.footer__link}>CONTACT</li>
-            </ul>
-            <p className={styles.copyRight}>
-              &copy; 2023 Nard Studio | All Rights Reserved
-            </p>
-          </div>
-        </Container>
-      </Section>
+      <Footer />
     </>
   );
 };

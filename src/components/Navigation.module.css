@@ -1,10 +1,16 @@
+.container {
+  background-color: var(--primary);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3rem 0 8rem;
   border-bottom: 1px solid #413833;
-  margin-bottom: 5rem;
+  max-width: var(--container-lg);
+  margin: 0 auto;
+  background-color: var(--primary);
 }
 
 .links {

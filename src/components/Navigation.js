@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "./Button";
@@ -6,18 +7,28 @@ import Logo from "./Logo";
 
 const Navigation = () => {
   return (
-    <nav className={styles.nav}>
-      <Logo />
-      <ul className={styles.links}>
-        <li className={styles.link}>EXPLORE</li>
-        <li className={styles.link}>ROOMS</li>
-        <li className={styles.link}>ABOUT</li>
-        <li className={styles.link}>ACTIVITIES</li>
-      </ul>
-      <Button className={styles.btn}>
-        BOOK NOW <AiOutlineArrowRight className={styles.arrowRight} />
-      </Button>
-    </nav>
+    <header className={styles.container}>
+      <nav className={styles.nav}>
+        <Logo />
+        <ul className={styles.links}>
+          <NavLink to="/" className={styles.link}>
+            EXPLORE
+          </NavLink>
+          <NavLink to="/rooms" className={styles.link}>
+            ROOMS
+          </NavLink>
+          <NavLink to="/about" className={styles.link}>
+            ABOUT
+          </NavLink>
+          <NavLink to="/activities" className={styles.link}>
+            ACTIVITIES
+          </NavLink>
+        </ul>
+        <Button className={styles.btn}>
+          BOOK NOW <AiOutlineArrowRight className={styles.arrowRight} />
+        </Button>
+      </nav>
+    </header>
   );
 };
 
