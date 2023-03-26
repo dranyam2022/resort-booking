@@ -8,6 +8,7 @@ import Section from "../../layout/Section";
 import Button from "../../layout/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { GiSurferVan } from "react-icons/gi";
+import { BsTelephone } from "react-icons/bs";
 
 const Explore = () => {
   return (
@@ -67,6 +68,42 @@ const Explore = () => {
                 </Button>
               </div>
             </div>
+          </div>
+        </Container>
+      </Section>
+      <Section bgColor="bg--primary">
+        <Container>
+          <div className={styles.footer}>
+            <div className={styles.footer__top}>
+              <h2>CALL FOR BOOKING</h2>
+              <div className={styles.footer__btn}>
+                <div>
+                  <span>
+                    <BsTelephone />
+                  </span>
+                  (555) 555-1234
+                </div>
+                <Button>
+                  BOOK NOW
+                  <AiOutlineArrowRight />
+                </Button>
+              </div>
+            </div>
+            <ul className={styles.footer__links}>
+              <li>OUR STORY</li>
+              <li>PACKAGES</li>
+              <li>SERVICES</li>
+              <li className={styles.footer__logo}>
+                <GiSurferVan className={styles.logo} />
+                WAVE .
+              </li>
+              <li>FEATURE</li>
+              <li>GALLERY</li>
+              <li>CONTACT</li>
+            </ul>
+            <p className={styles.copyRight}>
+              &copy; 2023 Nard Studio | All Rights Reserved
+            </p>
           </div>
         </Container>
       </Section>

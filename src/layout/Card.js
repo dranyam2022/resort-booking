@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Card.module.css";
 
 const Card = (props) => {
-  const classes = `${styles.card} ${styles[props.className]}`;
+  const classes = `${styles.card} ${styles[props.bg]}`;
   return <div className={classes}>{props.children}</div>;
 };
 
