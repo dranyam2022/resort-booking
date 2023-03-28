@@ -7,6 +7,8 @@ import Logo from "./Logo";
 import Button from "./Button";
 
 const Footer = () => {
+  const copyRightDate = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <Container>
@@ -38,7 +40,7 @@ const Footer = () => {
             <li className={styles.footer__link}>CONTACT</li>
           </ul>
           <p className={styles.copyRight}>
-            &copy; 2023 Nard Studio | All Rights Reserved
+            &copy; {copyRightDate} Resort Booking | All Rights Reserved
           </p>
         </div>
       </Container>

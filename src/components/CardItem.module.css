@@ -1,0 +1,19 @@
+.card__container {
+  background-color: white;
+  max-height: 40rem;
+  max-width: 30rem;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card__container img {
+  width: 30rem;
+  max-height: 15rem;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.card__body {
+  padding: 2rem;
+}

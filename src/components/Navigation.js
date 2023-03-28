@@ -6,22 +6,24 @@ import Button from "./Button";
 import Logo from "./Logo";
 
 const Navigation = () => {
+  const classes = ({ isActive }) => (isActive ? styles.active : undefined);
+
   return (
     <header className={styles.container}>
       <nav className={styles.nav}>
         <Logo />
         <ul className={styles.links}>
-          <NavLink to="/" className={styles.link}>
+          <NavLink to="/" className={classes} end>
             EXPLORE
           </NavLink>
-          <NavLink to="/rooms" className={styles.link}>
+          <NavLink to="/rooms" className={classes}>
             ROOMS
           </NavLink>
-          <NavLink to="/about" className={styles.link}>
-            ABOUT
-          </NavLink>
-          <NavLink to="/activities" className={styles.link}>
+          <NavLink to="/activities" className={classes}>
             ACTIVITIES
+          </NavLink>
+          <NavLink to="/about" className={classes}>
+            ABOUT
           </NavLink>
         </ul>
         <Button className={styles.btn}>

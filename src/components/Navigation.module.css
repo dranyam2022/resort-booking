@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 0 8rem;
+  padding: 3rem 0 3rem;
   border-bottom: 1px solid #413833;
   max-width: var(--container-lg);
   margin: 0 auto;
@@ -23,11 +23,17 @@
   user-select: none;
 }
 
-.link {
+.links a {
   cursor: pointer;
+  color: white;
 }
-.link:hover {
+.links a:hover {
   transform: scale(1.1);
+  text-decoration: underline;
+  color: var(--accent-orange);
+}
+
+.links a.active {
   text-decoration: underline;
   color: var(--accent-orange);
 }
